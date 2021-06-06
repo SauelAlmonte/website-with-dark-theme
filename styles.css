@@ -1,0 +1,150 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #1b1b1b;
+}
+
+.dark-theme {
+    --primary-color: #1b1b1b;
+    --secondary-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding-right: 7%;
+    padding-left: 3%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 160px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    padding-left: 480px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #ff6401;
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+.content {
+    position: relative;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 100px;
+    letter-spacing: .1em;
+    font-size: 50px;
+    color: var(--secondary-color);
+}
+
+h1 .style {
+    color: #ff6401;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    margin-top: 35px;
+    color: var(--secondary-color);
+}
+
+.text {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin-top: 80px;
+    padding: 15px 45px;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 30px;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all .5s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.social-media {
+    margin-top: 80px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 33px;
+}
+
+.fab {
+    color: var(--secondary-color);
+    margin-left: 10px;
+}
+
+.fab:hover {
+    color: #ff6401;
+}
+
+.image {
+    position: absolute;
+    width: 35%;
+    height: 600px;
+    bottom: 0;
+    margin-bottom: -154px;
+    margin-left: 1100px;
+}
+
+
+
